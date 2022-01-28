@@ -1,0 +1,45 @@
+body{
+    background-image: url("BP.png");
+    background-size: cover;
+background-position:cover;
+}
+
+.div_speed_img, .div_volume_img{
+    width: 150px;
+    border-radius: 100px;
+}
+
+.div_speed{
+    float: left;
+}
+
+.div_volume{
+    float: right;
+}
+
+.heading{
+    margin: 0%;
+    width: 100%;
+    font-size: 27px;
+}
+
+.note{
+    font-size: 15px;
+    color: rgb(108, 7, 209);
+}
+.play_button{
+    margin-top: 74px;
+}
+
+canvas{
+    border:5px solid black;
+    border-radius: 60px;
+}
+
+.stop_button{
+    margin-top: 40px;
+}
+
+.songname:hover{
+    cursor: pointer;
+}
